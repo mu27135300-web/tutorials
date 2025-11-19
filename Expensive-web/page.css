@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(84, 90, 75);
+}
+.nav-menu li{
+    display: inline-block;
+    padding: 50px;
+    background-color: blue;
+    border-radius: 10px;
+    margin: 10px 0 0 200px;
+    width: 100px;
+}
+.nav-menu a{
+    color: white;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.nav-menu li:hover{
+    background-color: burlywood;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    
+}
+.card{
+    width: 60%;
+    min-width: 300px;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #a79696;
+    border-radius: 10px;
+}
+.center{
+    border-radius: 100px;
+}
+.navbar img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    padding-left: 5%;
+}
